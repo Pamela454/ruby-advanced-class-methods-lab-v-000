@@ -31,10 +31,10 @@ class Song
   end
 
   def Song.find_or_create_by_name(song_name)
-    if find_by_name("song_name")
+    if find_by_name(song_name)
       return song_name
     else
-      self.create
+      create_by_name(song_name)
       return song_name
     end
   end
