@@ -31,12 +31,12 @@ class Song
   end
 
   def Song.find_or_create_by_name(song_name)
-  if @@all.each.include?(song_name)
-    return song_name
-  else
-    self.create
-    return song_name
-  end
+    if @@all.each.include?(song_name)
+      return song_name
+    else
+      self.create
+      return song_name
+    end
   end
 
   def save
