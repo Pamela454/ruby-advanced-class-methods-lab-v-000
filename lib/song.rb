@@ -39,10 +39,15 @@ class Song
 
   def self.new_from_filename(filename)
     filename = self.create
+    
   end
 
   def save
     self.class.all << self
+  end
+
+  def Song.destroy_all
+
   end
 
 end
