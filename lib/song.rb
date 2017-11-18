@@ -40,6 +40,7 @@ class Song
   def self.name
 
   end
+  
   def save
     self.class.all << self
   end
