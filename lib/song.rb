@@ -26,8 +26,8 @@ class Song
     song
   end
 
-  def find_by_name
-
+  def find_by_name(song_name)
+    
   end
 
   def save
