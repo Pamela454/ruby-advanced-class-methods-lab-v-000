@@ -34,7 +34,7 @@ class Song
     @@all.each.include?
     return song_name
   else
-    song_name.create 
+    song_name.create
     return song_name
   end
 
