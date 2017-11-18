@@ -35,7 +35,7 @@ class Song
       return song_name
     else
       create_by_name(song_name)
-      return song_name
+      return song.name
     end
   end
 
