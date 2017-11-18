@@ -31,6 +31,7 @@ class Song
   end
 
   def Song.find_or_create_by_name(song_name)
+    song.name = song_name
     @@all.each.include?(song_name)
     return song_name
   else
