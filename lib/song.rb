@@ -39,10 +39,10 @@ class Song
 
   def self.new_from_filename(filename)
     filename = self.create
-    
+
   end
 
-  def Song.create_from_filename
+  def Song.create_from_filename(filename = "- .mp3")
 
   end
 
