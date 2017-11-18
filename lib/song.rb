@@ -42,7 +42,7 @@ class Song
 
   end
 
-  def Song.create_from_filename(filename = "- .mp3")
+  def Song.create_from_filename(filename = " - .mp3")
 
   end
 
