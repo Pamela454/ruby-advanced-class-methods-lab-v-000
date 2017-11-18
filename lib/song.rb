@@ -32,8 +32,12 @@ class Song
 
   def self.Song.find_or_create_by_name(song_name)
     @@all.each.include?
+    return song_name
+  else
+    song_name.create 
+    return song_name
   end
-  
+
   def save
     self.class.all << self
   end
