@@ -37,13 +37,13 @@ class Song
     @@all.sort_by{|song| song.name}
   end
 
-  def self.new_from_filename(filename = " - .mp3")
+  def self.new_from_filename(filename)
     filename = self.create
 
   end
 
-  def Song.create_from_filename(filename = " - .mp3")
-    
+  def Song.create_from_filename(filename)
+
   end
 
   def save
